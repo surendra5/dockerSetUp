@@ -1,7 +1,7 @@
 #docker install script for ubuntu xenial 16.04
 
 #install docker
-apt-get remove docker docker-engine docker.io containerd runc
+#apt-get remove docker docker-engine docker.io containerd runc
 apt-get update
 apt-get install apt-transport-https ca-certificates curl gnupg-agent software-properties-common
 curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo apt-key add -
